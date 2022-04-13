@@ -1,0 +1,25 @@
+.summary-item-wrapper{
+    width: 100%;
+     display: flex;
+     flex:1, 1,;
+       justify-content: space-around;
+       align-items: center;
+       min-height: 30px;
+       background-color: #dcdcdc;
+       margin-bottom: 10px;
+   }
+   .summary-item{
+    max-height: 40px;
+    flex: 1 1 30%;
+	display: flex;
+    justify-content: space-between;
+	overflow: hidden;
+	}
+    
+    .summary-item_name {
+        
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 10px;
+    }
+    

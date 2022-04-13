@@ -1,0 +1,26 @@
+.task-item-wrapper{
+   width: 100%;
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 30px;
+      background-color: #dcdcdc;
+      margin-bottom: 10px;
+  }
+  .task-item{
+    max-height: 40px;
+    flex: 1 1 130px;
+	display: flex;
+    justify-content: flex-start;
+	overflow: hidden;
+	}
+  .task-item-name{
+    flex:200px;
+    display: flex;
+  }
+  .task-item-name>div{
+    margin-left: 10px;
+  }
+  .task-item-buttons{
+    display: flex;
+  }

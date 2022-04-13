@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+.App{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	font-size: large;
+	color: rgb(10, 10, 10);
+	
+}
+.App-content-wraper{
+	flex: 1 1 0%;
+	background-color: #f0f3f5;
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+}
+.navbar-wrapper {
+	display: flex;
+	justify-content: space-between ;
+	
+	background-color:#808080 ;
+	color: #FFF;
+	font-size: large;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.navbar-wrapper div{
+	flex: 1 1 130px;
+	display: flex;
+	margin: 5px;
+}
+.navbar-wrapper .navbar-icon{
+	flex: 40px;
+	justify-self: flex-end;
+}
+.navbar-wrapper .navbar-item-name{
+	flex:200px;
+	padding-left: 10px;
+}
+.tasks-list-wrapper{
+  min-height: 200px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.create-task-wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-icon-archive{
+	opacity: 0,5;
+	background-color: black;
+}
+.create-task-btn{
+	display: flex;
+	margin-bottom: 10px;
+	justify-content: flex-end;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

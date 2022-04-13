@@ -1,0 +1,16 @@
+.edit-item-wrapper{
+    width: 100%;
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 30px;
+      background-color: #dcdcdc;
+      margin-bottom: 10px;
+  }
+.edit-item{
+    max-height: 40px;
+    flex: 1 1 130px;
+	display: flex;
+    justify-content: space-between;
+	overflow: hidden;
+}
